@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color:rgb(43, 174, 226);
+}
+h2 {
+    color:white;
+}
+.flex-container > div {
+    background-color: orange;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+#startButton {
+    display: flex;
+    color: white;
+    background-color: rgb(8, 104, 184);
+    width: 100px;
+    height: 100px;
+    border-radius: 3px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+
+}
+
+#startButton:hover {
+    background-color:orange;
+} 
